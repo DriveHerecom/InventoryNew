@@ -1,0 +1,374 @@
+<resources>
+    <string name="app_name">Drivehere</string>
+    <!--<string name="app_name">Inventory</string>-->
+    <string name="search_by">Search by</string>
+    <string name="album_name">CameraSample</string>
+
+    <string name="dataone_client_id">10340</string>
+    <string name="dataone_authorization_code">6834e7346d423aa2a31b6c257835766342b86464</string>
+    <string name="decoder_query_json">    {\"decoder_settings\": {
+        \"display\": \"full\",
+        \"version\": \"7.0.1\",
+        \"styles\": \"on\",
+        \"style_data_packs\": {
+            \"basic_data\": \"on\",
+            \"pricing\": \"on\",
+            \"engines\": \"on\",
+            \"transmissions\": \"on\",
+            \"specifications\": \"on\",
+            \"installed_equipment\": \"on\",
+            \"optional_equipment\": \"off\",
+            \"colors\": \"on\",
+            \"safety_equipment\": \"on\",
+            \"warranties\": \"on\",
+            \"fuel_efficiency\": \"on\",
+            \"green_scores\": \"on\",
+            \"crash_test\": \"on\",
+            \"awards\": \"on\"
+        },
+        \"common_data\": \"on\",
+        \"common_data_packs\": {
+            \"basic_data\": \"on\",
+            \"pricing\": \"on\",
+            \"engines\": \"on\",
+            \"transmissions\": \"on\",
+            \"specifications\": \"on\",
+            \"installed_equipment\": \"on\",
+            \"optional_equipment\": \"on\",
+            \"colors\": \"on\",
+            \"safety_equipment\": \"on\",
+            \"warranties\": \"on\",
+            \"fuel_efficiency\": \"on\",
+            \"green_scores\": \"on\",
+            \"crash_test\": \"on\",
+            \"awards\": \"on\"
+        }
+    },
+    \"query_requests\": {
+        \"Request-Sample\": {
+            \"vin\": \"xxxxx\",
+            \"year\": \"\",
+            \"make\": \"\",
+            \"model\": \"\",
+            \"trim\": \"\",
+            \"model_number\": \"\",
+            \"package_code\": \"\",
+            \"drive_type\": \"\",
+            \"vehicle_type\": \"\",
+            \"body_type\": \"\",
+            \"body_subtype\": \"\",
+            \"doors\": \"\",
+            \"bedlength\": \"\",
+            \"wheelbase\": \"\",
+            \"msrp\": \"\",
+            \"invoice_price\": \"\",
+            \"engine\": {
+                \"description\": \"\",
+                \"block_type\": \"\",
+                \"cylinders\": \"\",
+                \"displacement\": \"\",
+                \"fuel_type\": \"\"
+            },
+            \"transmission\": {
+                \"description\": \"\",
+                \"trans_type\": \"\",
+                \"trans_speeds\": \"\"
+            },
+            \"optional_equipment_codes\": \"\",
+            \"installed_equipment_descriptions\": \"\",
+            \"interior_color\": {
+                \"description\": \"\",
+                \"color_code\": \"\"
+            },
+            \"exterior_color\": {
+                \"description\": \"\",
+                \"color_code\": \"\"
+            }
+        }
+    }
+}
+</string>
+
+    <string-array name="auction_name">
+        <item>Carriage Trade</item>
+    </string-array>
+
+    <string-array name="repo_company_name">
+        <item>No Company</item>
+    </string-array>
+
+    <!-- DHC -04, DHP -05, CV -51, BS -52, 405 -53, Unknown -->
+    <string-array name="Lotcode">
+        <item>DHC-04</item>
+        <item>DHP-05</item>
+        <item>CV-51</item>
+        <item>BS-52</item>
+        <item>Int</item>
+        <item>405-53</item>
+        <item>Unknown</item>
+    </string-array>
+
+    <string-array name="LotCodeColorValue">
+        <item>#00FF00</item>
+        <item>#0000FF</item>
+        <item>#FF0000</item>
+        <item>#FFFF00</item>
+        <item>#FF7F00</item>
+        <item>#00FF22</item>
+        <item>#001566</item>
+        <item>#001566</item>
+    </string-array>
+
+    <string-array name="Stage">
+        <item>Not assign yet</item>
+        <item>MC</item>
+        <item>MC check done</item>
+        <item>WP</item>
+        <item>20 Miles</item>
+        <item>Ready</item>
+    </string-array>
+
+    <string-array name="Stage_sub">
+        <item>Parts</item>
+        <item>Junk</item>
+        <item>Bank car</item>
+        <item>Auction</item>
+        <item>Repo hold</item>
+        <item>Repo A/C</item>
+        <item>Accident</item>
+        <item>PPA</item>
+        <item>FDC</item>
+    </string-array>
+
+    <string-array name="Vacancy">
+        <item>Available</item>
+        <item>Sold</item>
+    </string-array>
+
+    <string-array name="FuelTypeShortKey">
+        <item>B</item>
+        <item>D</item>
+        <item>F</item>
+        <item>G</item>
+        <item>I</item>
+        <item>L</item>
+        <item>N</item>
+        <item>P</item>
+        <item>Y</item>
+    </string-array>
+
+    <string-array name="FuelType">
+        <item>BioDiesel</item>
+        <item>Diesel</item>
+        <item>Flex Fuel</item>
+        <item>Gasoline</item>
+        <item>Plug-in Hybrid</item>
+        <item>Electric</item>
+        <item>Natural Gas</item>
+        <item>Petroleum</item>
+        <item>Gas/Electric Hybrid</item>
+    </string-array>
+
+    <string-array name="DriveType">
+        <item>FWD</item>
+        <item>RWD</item>
+        <item>AWD</item>
+    </string-array>
+
+    <string-array name="VehicleType">
+        <item>Car</item>
+        <item>SUB</item>
+        <item>Truck</item>
+        <item>Van</item>
+    </string-array>
+
+    <string-array name="Problem">
+        <item>Clear</item>
+        <item>Engine</item>
+        <item>Transmission</item>
+        <item>Electrical</item>
+        <item>Inspection</item>
+        <item>Key</item>
+        <item>BodyShop</item>
+    </string-array>
+
+    <string-array name="ColorName">
+        <item>Grey</item>
+        <item>White</item>
+        <item>Brown</item>
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Beige</item>
+        <item>Gold</item>
+        <item>Red</item>
+        <item>yellow</item>
+        <item>Purple</item>
+        <item>Pink</item>
+        <item>Orange</item>
+        <item>Blue-Green</item>
+        <item>Red-Purple</item>
+        <item>Orange-Yellow</item>
+        <item>Silver</item>
+    </string-array>
+
+    <string-array name="ColorValue">
+        <item>#C0C0C0</item>
+        <item>#FFFFFF</item>
+        <item>#773300</item>
+        <item>#000000</item>
+        <item>#0000FF</item>
+        <item>#00FF00</item>
+        <item>#C48F35</item>
+        <item>#FFBF00</item>
+        <item>#FF0000</item>
+        <item>#FFFF00</item>
+        <item>#700A99</item>
+        <item>#FF00FF</item>
+        <item>#FF7F00</item>
+        <item>#7FBFBF</item>
+        <item>#BF007F</item>
+        <item>#f8e22a</item>
+        <item>#DCDCDC</item>
+    </string-array>
+
+
+    <string-array name="Make">
+        <item>ACURA</item>
+        <item>AUDI</item>
+        <item>BMW</item>
+        <item>BUICK</item>
+        <item>CADILLAC</item>
+        <item>CHEVROLET</item>
+        <item>CHEVY</item>
+        <item>CHRYSLER</item>
+        <item>DODGE</item>
+        <item>EAGLE</item>
+        <item>FORD</item>
+        <item>GEO</item>
+        <item>GMC</item>
+        <item>HONDA</item>
+        <item>HYUNDAI</item>
+        <item>INFINITI</item>
+        <item>INFINITY</item>
+        <item>ISUZU</item>
+        <item>JAGUAR</item>
+        <item>JEEP</item>
+        <item>KIA</item>
+        <item>LAND ROVER</item>
+        <item>LEXUS</item>
+        <item>LINCOLN</item>
+        <item>MAZDA</item>
+        <item>MERCEDES-BENZ</item>
+        <item>MERCURY</item>
+        <item>MITSUBISHI</item>
+        <item>NISSAN</item>
+        <item>OLDMOBILE</item>
+        <item>OLDSMOBILE</item>
+        <item>PLYMOUTH</item>
+        <item>PORSCHE</item>
+        <item>PONTIAC</item>
+        <item>SAAB</item>
+        <item>SATURN</item>
+        <item>SCION</item>
+        <item>SUBARU</item>
+        <item>SUZUKI</item>
+        <item>TOYOTA</item>
+        <item>VOLKSWAGEN</item>
+        <item>VOLVO</item>
+    </string-array>
+
+    <string name="title_activity_car_list">CarList</string>
+    <string name="title_activity_car_detail">Car Detail</string>
+    <string name="title_activity_scanner">Scanner</string>
+    <string name="lot_code">lot Code</string>
+    <string name="has_title">Has Title?</string>
+    <string name="has_rfid">Has RFID?</string>
+    <string name="stage">Stage</string>
+    <string name="auction">Auction?</string>
+
+    <string name="scanner_activity">ZXing Scanner - Full Activity</string>
+    <string name="scanner_fragment_activity">ZXing Scanner - Full Fragment Activity</string>
+    <string name="simple_scanner_activity">ZXing Scanner - Simple Activity</string>
+    <string name="simple_scanner_fragment_activity">ZXing Scanner - Simple Fragment Activity</string>
+    <string name="simple_activity_sample">Simple Activity Sample</string>
+    <string name="simple_fragment_sample">Simple Fragment Sample</string>
+    <string name="activity_sample">Full Activity Sample</string>
+    <string name="fragment_sample">Full Fragment Sample</string>
+    <string name="toggle_flash">Flash</string>
+    <string name="update">Update</string>
+    <string name="flash_on">Flash [ON]</string>
+    <string name="flash_off">Flash [OFF]</string>
+    <string name="auto_focus_on">Auto Focus [ON]</string>
+    <string name="auto_focus_off">Auto Focus [OFF]</string>
+    <string name="formats">Formats</string>
+    <string name="choose_formats">Choose Formats</string>
+    <string name="choose_action">Choose Action</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="label_scanner">Scanner</string>
+    <string name="vin_sample">2D4GP24RX5R107992</string>
+    <string name="apply_filter">Apply Filter</string>
+    <string name="apply_reset">Reset</string>
+    <string name="hintSearchMess">Search using vin,rfid or stock number</string>
+
+    <integer name="viewfinder_border_width">4</integer>
+    <integer name="viewfinder_border_length">60</integer>
+    <string name="title_activity_change_done_date">Change Done Date</string>
+    <string name="network_error">Network error, try again later.</string>
+    <string name="select_date">Select date</string>
+    <string name="select_lot_code">Select Lot code</string>
+    <string name="title_activity_data_one">Data One Info</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_add_auction">Auction</string>
+    <string name="title_activity_add_images">AddImages</string>
+    <string name="auction_name">Auction name</string>
+    <string name="floor_price">Floor price</string>
+    <string name="condition">Condition</string>
+    <string name="miles">Miles</string>
+    <string name="note">Note</string>
+    <string name="auction_date">Auction date</string>
+    <string name="repo_report">Repo report</string>
+    <string name="auction_report">Auction report</string>
+    <string name="gauge_clock">Gauge Clock</string>
+    <string name="scan_check">Scan Check</string>
+    <string name="search">Search</string>
+    <string name="title_activity_auction_report">Auction report</string>
+    <string name="title_activity_repo_add">Repo</string>
+    <string name="add_repo">ADD REPO</string>
+    <string name="repo_company">Repo company</string>
+    <string name="title_activity_repo_report">Repo report</string>
+    <string name="title_activity_image_pager">ImagePagerActivity</string>
+    <string name="title_activity_car_add">Add car</string>
+    <string name="vin">Vin</string>
+    <string name="enter">Enter</string>
+    <string name="scan">SCAN</string>
+    <string name="select">Select</string>
+    <string name="vacancy">Vacancy</string>
+    <string name="stock_no">Stock no</string>
+    <string name="make">Make</string>
+    <string name="model">Model</string>
+    <string name="year">Year</string>
+    <string name="rfid">Rfid</string>
+    <string name="title_location">Title location</string>
+    <string name="title_activity_gauge_clock">Gauge Clock</string>
+    <string name="title_activity_scan_history">Scan history</string>
+    <string name="problem">Problem</string>
+    <string name="color">Color</string>
+    <string name="assigned_date">Assigned date</string>
+    <string name="delivered_date">Delivered date</string>
+    <string name="title_activity_gps_list">GPS list</string>
+    <string name="gps">GPS</string>
+    <string name="add_gps">Add GPS</string>
+    <string name="title_activity_gps_add">Add Gps</string>
+    <string name="title_activity_forgot_password">Forgot password</string>
+    <string name="notification_error_ssl_cert_invalid">SSL error occurred. Would you like to proceed?</string>
+    <string name="car_ready_for_auction">Car ready for auction?</string>
+    <string name="car_at_the_auction">Car at the auction?</string>
+    <string name="close">CLOSE</string>
+    <string name="open">OPEN</string>
+    <string name="serial_number">Serial number</string>
+    <string name="technician">Technician</string>
+    <string name="qc_done_by">QC done by</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+</resources>

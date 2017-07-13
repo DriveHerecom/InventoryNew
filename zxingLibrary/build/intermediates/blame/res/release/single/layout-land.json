@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/vj/AndroidStudioProjects/Drivehere/zxingLibrary/build/intermediates/res/merged/release/layout-land/encode.xml",
+        "source": "/home/vj/AndroidStudioProjects/Drivehere/zxingLibrary/src/main/res/layout-land/encode.xml"
+    },
+    {
+        "merged": "/home/vj/AndroidStudioProjects/Drivehere/zxingLibrary/build/intermediates/res/merged/release/layout-land/share.xml",
+        "source": "/home/vj/AndroidStudioProjects/Drivehere/zxingLibrary/src/main/res/layout-land/share.xml"
+    }
+]

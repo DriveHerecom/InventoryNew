@@ -1,0 +1,10 @@
+package com.creadigol.drivehere.dataone.model;
+
+import java.util.ArrayList;
+
+public class UsMarketData {
+
+	public CommonUsData common_us_data;
+	public ArrayList<US_Styles> us_styles;
+	
+}

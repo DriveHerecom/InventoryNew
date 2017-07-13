@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="photos_list_spacing">5dp</dimen>
+
+    <integer name="photo_list_preview_columns">2</integer>
+</resources>

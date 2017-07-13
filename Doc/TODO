@@ -93,7 +93,7 @@ Search
 Any changes on the edit of the fields doesn't get update it instantly. You have to search find the car again and edit the information.
 2. Status and Stage on top of the search.
 3. Stage doesn't work correctly on the Search, the search results for stage pulls out all results (this fix is top priority)
-4. The cars that go to pending we would like to be on the search. Thus Search should have an option to search cars in pending or not in pending.
+4. The cars that go to pending we would like to be on the search. Thus Search should have an option to search gpsList in pending or not in pending.
 5. In the search functionality of the app there is a default value. Please remove this.
 Edit
 6. We want to see the same information in search as well as all the information we can edit.
@@ -200,7 +200,7 @@ Any changes on the edit of the fields doesn't get update it instantly. You have 
 
 3. Stage doesn't work correctly on the Search, the search results for stage pulls out all results (this fix is top priority)
 
-4. The cars that go to pending we would like to be on the search. Thus Search should have an option to search cars in pending or not in pending.
+4. The cars that go to pending we would like to be on the search. Thus Search should have an option to search gpsList in pending or not in pending.
 
 5. In the search functionality of the app there is a default value. Please remove this.
 

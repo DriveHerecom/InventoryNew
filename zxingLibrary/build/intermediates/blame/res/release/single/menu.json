@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/vj/AndroidStudioProjects/Drivehere/zxingLibrary/build/intermediates/res/merged/release/menu/capture.xml",
+        "source": "/home/vj/AndroidStudioProjects/Drivehere/zxingLibrary/src/main/res/menu/capture.xml"
+    },
+    {
+        "merged": "/home/vj/AndroidStudioProjects/Drivehere/zxingLibrary/build/intermediates/res/merged/release/menu/encode.xml",
+        "source": "/home/vj/AndroidStudioProjects/Drivehere/zxingLibrary/src/main/res/menu/encode.xml"
+    },
+    {
+        "merged": "/home/vj/AndroidStudioProjects/Drivehere/zxingLibrary/build/intermediates/res/merged/release/menu/history.xml",
+        "source": "/home/vj/AndroidStudioProjects/Drivehere/zxingLibrary/src/main/res/menu/history.xml"
+    }
+]

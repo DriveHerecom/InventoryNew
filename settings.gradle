@@ -1,3 +1,2 @@
-include ':driveHere:libraries:volley', ':library'
-include ':driveHere:libraries:zxingLibrary'
-include ':driveHere'
+include ':app'
+//include ':zxingLibrary'
